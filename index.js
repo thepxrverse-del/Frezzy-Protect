@@ -19,6 +19,7 @@ app.get('/', (req, res) => res.send('Frezzy Protect Aktif!'));
 app.listen(port, () => console.log(`Bot ${port} portunda yayında!`));
 
 // Token'ı buraya yenilenmiş haliyle yazın
+const TOKEN = 'MTUxMjg2NDk4MTM4MzkwOTU0OA.GYMHy2.6OJilmzE-TJMOqJ_Us5pufCu7sgZk4SJi86gNE';
 const WELCOME_CHANNEL_ID = '1506046438834966689';
 const LOG_CHANNEL_ID = '1506282577185607710';
 const SUSPICIOUS_ROLE_ID = '1506279327841652746';
